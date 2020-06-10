@@ -92,7 +92,7 @@ console.log("checking width done");
   console.log("submitting data done");
 
   // download
-  console.log("eporting results..");
+  console.log("exporting results..");
   const downloadInput = await page.$(
     'input[type="submit"][value="Download ASCII (.txt)"]'
   );
@@ -106,7 +106,7 @@ console.log("checking width done");
     );
   }
   await browser.close();
-  console.log("eporting results done");
+  console.log("exporting results done");
 
   const filePath = args.output
   ? path.resolve(args.output)
