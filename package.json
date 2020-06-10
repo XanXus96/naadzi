@@ -1,0 +1,19 @@
+{
+  "name": "naadzi",
+  "version": "1.0.0",
+  "description": "generate ascii art image",
+  "main": "./bin/index.js",
+  "bin": {
+    "naadzi": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marouane KAFOU",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "puppeteer-core": "^3.3.0"
+  }
+}
