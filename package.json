@@ -12,6 +12,10 @@
   },
   "author": "Marouane KAFOU",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git//github.com/XanXus96/naadzi.git"
+  },
   "dependencies": {
     "minimist": "^1.2.5",
     "puppeteer-core": "^3.3.0"
